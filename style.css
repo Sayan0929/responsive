@@ -1,0 +1,253 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* header starts here */
+
+.headerwrapper {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/slide01.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    color: white;
+}
+
+.nav {
+    width: 100%;
+}
+
+.nav h3 {
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.nav .light-text {
+    font-weight: 300;
+}
+
+.nav a {
+    float: right;
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.nav a span {
+    margin-right: 10px;
+}
+
+.banner {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 300px 0px;
+}
+
+.banner p {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 200;
+}
+
+.banner hr {
+    width: 50%;
+}
+
+.banner h1 {
+    font-size: 60px;
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+/* header ends here */
+
+/* twoimg section starts here */
+
+.fullwrapper {
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.twoimg {
+    background-color: #dbdbdb;
+}
+
+.twoimg-section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.left {
+    width: 46%;
+    float: left;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 40px;
+}
+
+.left img {
+    width: 100%;
+}
+
+.left p , .right p {
+    font-weight: 200;
+    color: gray;
+    padding: 0px 15px;
+}
+
+.left h2 , .right h2 {
+    font-weight: 300;
+}
+
+.twoimg-section hr {
+    width: 50%;
+}
+
+.right {
+    width: 46%;
+    float: right;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 40px;
+}
+
+.right img {
+    width: 100%;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    background: none;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    border: 2px solid #dbdbdb;
+}
+
+/* twoimg section ends here */
+
+/* long banner starts here */
+
+.longimg {
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+}
+
+.longimg p {
+    text-transform: uppercase;
+    color: gray;
+}
+
+.longimg hr {
+    width: 35%;
+}
+
+.longimg h2 {
+    font-weight: 400;
+}
+
+/* long banner starts here */
+
+/* fourimg section starts here */
+
+.fourimg {
+    background-color: #dbdbdb;
+}
+
+.fourimg-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fourimg-section p {
+    text-transform: uppercase;
+    color: gray;
+}
+
+.fourimg-section hr {
+    width: 35%;
+}
+
+.fourimg-section h2 {
+    font-weight: 400;
+}
+
+.fourimg-section img {
+    width: 45%;
+    float: left;
+    margin-bottom: 5%;
+    border: 10px solid #fff;
+}
+
+.fourimg-section .marginleft {
+    margin-left: 5%;
+}
+
+/* fourimg section ends here */
+
+/* footer starts here */
+
+.footer-section {
+    background-color: #000;
+    color: gray;
+}
+
+.footer {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer .fa {
+    font-size: 30px;
+    padding: 0px 10px;
+}
+
+/* footer ends here */
+
+/* media query starts here */
+
+@media only screen and (max-width:800px){
+.banner h1 {
+    font-size: 40px;
+}
+
+.twoimg-section .left {
+    width: 100%;
+    clear: both;
+}
+
+.twoimg-section .right {
+    width: 100%;
+    clear: both;
+}
+
+.fourimg-section img {
+    width: 100%;
+    clear: both;
+    border: none;
+}
+
+.fourimg-section .marginleft {
+    margin-left: 0px;
+}
+
+}
